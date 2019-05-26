@@ -11,7 +11,7 @@ public class MyBank
 	void insertData() 
 	{
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter Account Number:");
+		System.out.println("Enter Account Number to create Account:");
 		account_no=sc.nextInt();
 		System.out.println("Enter Account Holder Name:");
 		name=sc.next();	
